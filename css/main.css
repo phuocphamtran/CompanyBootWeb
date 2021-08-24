@@ -1,0 +1,65 @@
+/* global */
+html,
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+}
+.header__top {
+  background-color: #ff4f81;
+  font-size: 0.875rem;
+}
+.header__top a {
+  text-decoration: none;
+  color: white;
+}
+/* .header__top .header__left .dn {
+  margin-right: 30px;
+} */
+.header__right a {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border: 1px solid black;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  margin-left: 0.3rem;
+}
+.navCompany a {
+  color: black;
+}
+.navCompany .navbar-brand p:first-child {
+  font-size: 2.25rem;
+}
+.navCompany .navbar-brand p:first-child i {
+  transform: skewX(-10deg);
+}
+.navCompany .navbar-brand p:last-child {
+  font-size: 0.7rem;
+  color: #ff4f81;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+#navbarCompany .nav-item {
+  margin: 0 15px;
+}
+#navbarCompany .nav-item::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #ff4f81;
+  display: block;
+  transition: all 0.5s;
+}
+#navbarCompany .nav-item:hover::after {
+  width: 100%;
+}
+#navbarCompany .nav-link {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+}
+#navbarCompany .nav-item:hover .nav-link {
+  color: #ff4f81;
+}
