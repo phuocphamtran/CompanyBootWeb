@@ -365,3 +365,75 @@ body {
 .agent__map iframe {
   width: 100%;
 }
+/* footer */
+footer {
+  background-color: #141415;
+}
+.footer__top h3 {
+  color: #ff4f81;
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 5rem;
+}
+.footer__grid p {
+  color: #8b8b96;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+.footer__link,
+.footer__contact {
+  margin-bottom: 1rem;
+}
+.footer__link i {
+  color: #ff4f81;
+  margin-right: 1rem;
+}
+.footer__link a,
+.footer__contact a {
+  color: #8b8b96;
+  font-size: 15px;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+}
+.footer__contact i {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #4b4b50;
+  color: white;
+  text-align: center;
+  line-height: 32px;
+}
+.footer__form input {
+  margin-top: 50px;
+  color: #ff4f81;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 0;
+  height: auto;
+}
+.footer__form button {
+  background-color: #ff4f81;
+  padding: 12px 35px;
+  letter-spacing: 1px;
+  border-radius: 0;
+  margin-top: 45px;
+  color: white;
+  margin-bottom: 0;
+  height: auto;
+}
+.footer__bottom {
+  background-color: #0f0f10;
+  text-align: center;
+  padding: 1rem 0;
+  letter-spacing: 1px;
+  color: white;
+}
+.footer__bottom a {
+  text-decoration: none;
+  color: violet;
+}
